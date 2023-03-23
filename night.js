@@ -133,7 +133,7 @@ import { GLTFLoader } from 'GLTFLoader';
 
 			function animate() {
 				requestAnimationFrame( animate );
-
+				camera.rotation.y += 0.0002;
 			
 
 				renderer.render( scene, camera );
