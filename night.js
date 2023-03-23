@@ -23,12 +23,12 @@ import { GLTFLoader } from 'GLTFLoader';
       controls.update();
 
       const skyMaterialArray = []
-      const texture_ft = new THREE.TextureLoader().load('../ex-12/kenon_star_ft.jpg')
-      const texture_bk = new THREE.TextureLoader().load('../ex-12/kenon_star_bk.jpg')
-      const texture_up = new THREE.TextureLoader().load('../ex-12/kenon_star_up.jpg')
-      const texture_dn = new THREE.TextureLoader().load('../ex-12/kenon_star_dn.jpg')
-      const texture_rt = new THREE.TextureLoader().load('../ex-12/kenon_star_rt.jpg')
-      const texture_lf = new THREE.TextureLoader().load('../ex-12/kenon_star_lf.jpg')
+      const texture_ft = new THREE.TextureLoader().load('./kenon_star_ft.jpg')
+      const texture_bk = new THREE.TextureLoader().load('./kenon_star_bk.jpg')
+      const texture_up = new THREE.TextureLoader().load('./kenon_star_up.jpg')
+      const texture_dn = new THREE.TextureLoader().load('./kenon_star_dn.jpg')
+      const texture_rt = new THREE.TextureLoader().load('./kenon_star_rt.jpg')
+      const texture_lf = new THREE.TextureLoader().load('./kenon_star_lf.jpg')
 
       skyMaterialArray.push(
         new THREE.MeshStandardMaterial({
