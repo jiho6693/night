@@ -19,6 +19,7 @@ import { GLTFLoader } from 'GLTFLoader';
 			document.body.appendChild( renderer.domElement );
 
       const controls = new OrbitControls(camera, renderer.domElement);
+      controls.maxPolarAngle = 1
       controls.enableDamping = true;
       controls.update();
 
